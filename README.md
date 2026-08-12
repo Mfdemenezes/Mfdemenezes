@@ -21,7 +21,7 @@ Open to cloud/DevOps roles, remote or relocation.
 | Repository | What it demonstrates |
 |---|---|
 | **[aws-rds-terraform](https://github.com/Mfdemenezes/aws-rds-terraform)** | A database that is private by construction: no public endpoint, credentials generated and rotated by RDS in Secrets Manager, ingress by security group reference, Multi-AZ. Documented as a before/after of 12 security fixes to the version I first wrote — including the committed password. |
-| **[aws-alb-cloudfront-stack](https://github.com/Mfdemenezes/aws-alb-cloudfront-stack)** | Modular Terraform for an ALB + CloudFront + EC2 stack, remote state in S3, deploy and destroy pipelines. |
+| **[aws-alb-private-ec2](https://github.com/Mfdemenezes/aws-alb-private-ec2)** | VPC with public and private subnets across two AZs, internet-facing ALB, EC2 with no public address administered through SSM. The README states the cost and the gaps rather than hiding them. |
 | **[aws-static-site-cdn](https://github.com/Mfdemenezes/aws-static-site-cdn)** | S3 + CloudFront + ACM with a GitHub Actions pipeline that plans on every push and invalidates the CDN cache on release. |
 | **[aws-terraform-modules](https://github.com/Mfdemenezes/aws-terraform-modules)** | Reusable EC2, VPC, security group and S3 modules — encrypted EBS, SSM Session Manager instead of SSH, no key pairs to distribute. |
 | **[jarvis](https://github.com/Mfdemenezes/jarvis)** | Personal AI assistant on Oracle Cloud free tier: FastAPI, PostgreSQL with pgvector, Redis, NGINX, reachable from a PWA and from WhatsApp. The model is a tool-use agent that chains up to six calls before answering. |
